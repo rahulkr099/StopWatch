@@ -66,7 +66,7 @@ function Stopwatch() {
     //To get current hours, min, sec, ms. console.log(new Date().getHours(),new Date().getMinutes(),new Date().getSeconds(),new Date().getMilliseconds())
     // JSX to render the stopwatch UI
     return (
-        <div className="min-h-64 max-w-[312px] bg-white rounded-md bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-80 border border-gray-100 mx-auto ">
+        <div className="min-h-64 min-w-[212px] bg-white rounded-md bg-clip-padding backdrop-filter backdrop-blur-3xl bg-opacity-80 border border-gray-100 mx-auto">
             <div className="bg-white rounded-md m-2 p-5 text-4xl text-center relative top-12 shadow-xl">{formatTime()}</div>
             <div className="flex justify-center relative top-20">
                 <button className="bg-green-500 p-2 rounded-md m-3 text-white text-xl w-20 hover:text-black hover:bg-green-600" onClick={start}>Start</button>
